@@ -73,7 +73,7 @@ def test_04():
     """
 
     cfm_train, cfm_test = preguntas.pregunta_04()
-
+    
     assert cfm_train.tolist() == [[626, 8], [250, 16]]
     assert cfm_test.tolist() == [[66, 0], [30, 4]]
 
